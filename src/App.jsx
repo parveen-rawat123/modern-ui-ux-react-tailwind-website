@@ -3,6 +3,7 @@ import Hearder from "./components/hearder.jsx"
 import Hero from "./components/hero.jsx"
 import Benefits from "./components/Benefits.jsx";
 import Collaboration from "./components/Collaboration.jsx";
+import Services from "./components/Services.jsx"
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <ButtonGradient />
       <Benefits/>
       <Collaboration/>
+      <Services/>
     </>
   );
 };

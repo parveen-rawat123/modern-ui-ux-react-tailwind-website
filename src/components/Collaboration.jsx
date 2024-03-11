@@ -1,9 +1,10 @@
-import { brainwave, brainwaveSymbol, check } from "../assets";
+import {  brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Section from "./Section";
 import Button from "./button";
 
 const Collaboration = () => {
+
   return (
     <Section crosses>
       <div className="container lg:flex">
